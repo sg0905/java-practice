@@ -1,3 +1,4 @@
+//Leetcode question 20 on Valid Parantheses.
 import java.util.Stack;
 public class Valid_Parentheses {
    public boolean isValid(String s) {
@@ -31,8 +32,6 @@ public class Valid_Parentheses {
 
     for (String testCase : testCases) {
         System.out.println(testCase + " is valid: " + vp.isValid(testCase));
+        }
     }
-}
-
-
 }
