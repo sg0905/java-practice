@@ -43,7 +43,7 @@ public class beautiful_subset {
         int k = 1;
         beautiful_subset b = new beautiful_subset();
         int c = b.solve(ar, k);
-        System.out.println(c); // Output should be 23 for the provided input
+        System.out.println(c); 
     }
 }
 
